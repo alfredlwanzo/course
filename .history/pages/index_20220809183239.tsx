@@ -6,7 +6,6 @@ import HomeSection from "@src/components/sections/Home";
 import PricingSection from "@src/components/sections/Pricing";
 import Image from "next/image";
 import SubscribeButton from "@src/components/buttons/SubscribeButton";
-import InformationSection from "@src/components/sections/Information";
 
 const Home: NextPage = () => {
   return (
@@ -21,8 +20,8 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="">
-        {/* section Home */}
         <section className="bg-primary pt-12 md:pt-28 pb-14 md:pb-28">
+          {/* section Home */}
           <HomeSection />
         </section>
 
@@ -35,10 +34,8 @@ const Home: NextPage = () => {
         <section>
           <PricingSection />
         </section>
-
-        {/* Section infomations */}
         <section className="bg-primary py-5 md:py-10">
-          <InformationSection />
+          
         </section>
       </main>
 

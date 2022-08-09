@@ -21,8 +21,8 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="">
-        {/* section Home */}
         <section className="bg-primary pt-12 md:pt-28 pb-14 md:pb-28">
+          {/* section Home */}
           <HomeSection />
         </section>
 
@@ -35,10 +35,10 @@ const Home: NextPage = () => {
         <section>
           <PricingSection />
         </section>
-
+        
         {/* Section infomations */}
         <section className="bg-primary py-5 md:py-10">
-          <InformationSection />
+          <InformationSection/>
         </section>
       </main>
 

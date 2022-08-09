@@ -5,8 +5,6 @@ import ContentSection from "@src/components/sections/Content";
 import HomeSection from "@src/components/sections/Home";
 import PricingSection from "@src/components/sections/Pricing";
 import Image from "next/image";
-import SubscribeButton from "@src/components/buttons/SubscribeButton";
-import InformationSection from "@src/components/sections/Information";
 
 const Home: NextPage = () => {
   return (
@@ -21,8 +19,8 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="">
-        {/* section Home */}
         <section className="bg-primary pt-12 md:pt-28 pb-14 md:pb-28">
+          {/* section Home */}
           <HomeSection />
         </section>
 
@@ -35,10 +33,23 @@ const Home: NextPage = () => {
         <section>
           <PricingSection />
         </section>
-
-        {/* Section infomations */}
-        <section className="bg-primary py-5 md:py-10">
-          <InformationSection />
+        <section className="bg-primary py-10">
+          <div className="max-w-4xl mx-auto px-3">
+            <p className="text-center text-gray-900 max-w-3xl">
+              Nous avons mis du temps à préparer le contenue de cette formation. Nous voulons qu’une personne après avoir participé à ce
+              Bootcamp de Full-stack developpeur, puisse être capable de produire
+              une application de A à Z sans beaucoup de difficultés. Notre
+              Objectif est de créer de meilleurs développeurs Full-stack
+              indépendant.
+            </p>
+            <Image
+              src="/assets/images/affiche3.jpg"
+              alt=""
+              width={1658}
+              height={469}
+              className="mt-10"
+            />
+          </div>
         </section>
       </main>
 
