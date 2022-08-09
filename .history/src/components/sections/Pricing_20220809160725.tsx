@@ -70,7 +70,7 @@ export default function PricingSection() {
             </div>
           </div>
         </div>
-        <div className="mt-4 relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 lg:mt-5">
+        <div className="mt-4 relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 lg:mt-10">
           <div className="max-w-md mx-auto lg:max-w-5xl">
             <div className="border-l-8 border-l-primary bg-gray-900 px-6 py-8 sm:p-10 lg:flex lg:items-center">
               <div className="flex-1">

@@ -17,7 +17,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="">
-       <section className="bg-primary border-l-8 border-l-gray-900 pt-12 md:pt-28 pb-14 md:pb-28">
+       <section className="bg-primary border-l-8 border-l-gray-900 pt-14 md:pt-28 pb-14 md:pb-28">
         {/* section Home */}
         <HomeSection/>
        </section>

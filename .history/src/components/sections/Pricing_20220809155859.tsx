@@ -94,7 +94,7 @@ export default function PricingSection() {
                 </a>
               </div>
             </div>
-           
+            <div> Vous pouvez faire un virement Bancaire soit Illico-cash soit airtel-money soit payer du cash a notre Bureau d’innov chez kidubai</div>
           </div>
         </div>
       </div>
