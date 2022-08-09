@@ -25,7 +25,6 @@ const Home: NextPage = () => {
        <section className="py-6 md:py-20">
         <ContentSection/>
        </section>
-       
        {/* Section pricing */}
        <section>
         <PricingSection/>
