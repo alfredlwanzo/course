@@ -17,8 +17,7 @@ const HomeSection = () => {
           </h1>
           <p className="text-xl mt-2 text-gray-900">
             Une machine pour vous transformer en développeur
-            Full-Stack. Vous allez apprendre plusieurs notions difficiles à
-            trouver dans nos universités.
+            Full-Stack. .
           </p>
           <div className="hidden md:block mt-9">
             <SubscribeButton />
