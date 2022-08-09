@@ -12,7 +12,7 @@ const HomeSection = () => {
               Du 1 septembre au 25 octobre 2022.
             </h6>
           </div>
-          <h1 className="text-4xl sm:text-5xl text-gray-900 font-extrabold uppercase mt-2">
+          <h1 className="text-4xl sm:text-5xl md:text-5xl text-gray-900 font-extrabold uppercase mt-2">
             Bootcamp pour devenir full-stack developpeur
           </h1>
           <p className="text-xl mt-2 text-gray-900">
