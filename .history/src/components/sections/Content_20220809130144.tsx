@@ -4,10 +4,9 @@ import { CheckIcon } from "@heroicons/react/outline";
 const ContentSection = () => {
   return (
     <article className="max-w-3xl mx-auto px-3 sm:px-6">
-      <blockquote className="bg-gray-900 border-l-8 border-l-primary text-xl text-gray-200 p-4">
-        <h6 className="text-primary text-3xl font-extrabold">Contenu de la formation</h6>
-        Des projets de A à Z. Du frontend au backend en passant par la conception et l’usage des bonnes pratiques. (flutter, <span className="text-primary">nodejs</span>,  mongodb, <span className="text-primary">google cloud run</span>, docker)
-        {/* Nous avons mis du temps à préparer afin de produire un contenue riche. Nous avons appliqué une approche de rendre des notions complexes, faciles à apprendre. Nous voulons qu’une personne après avoir participer à cette formation puisse être capable de produire une application de A à Z sans beaucoup de difficultés. Notre Objectif est de créer de meilleurs développeurs Full-stack. */}
+      <blockquote className="bg-gray-900 border-l-8 border-l-primary text-gray-100 p-4">
+        <h6 className="text-primary text-3xl font-extrabold">Contenu</h6>
+        Nous avons mis du temps pour préparer ce contenue riche, nous allons une approche de rentre de notion complexe, facile à comprendre. Nous voulons qu’une personne après avoir participer à cette formation de Full-stack developer, soit capable de produire une application de A à Z sans beaucoup de difficultés. Notre Objectif est de créer de meilleurs développeurs Full-stack indépendant.
       </blockquote>
       {/* Chapter 1 */}
       <div className="mt-6">
@@ -77,13 +76,6 @@ const ContentSection = () => {
           </li>
         </ul>
       </div>
-      <blockquote className="border-l-8 border-l-primary p-6 mt-6 bg-gray-100 text-gray-700">
-      Avec 6 projets réels à développer,
-            nous espèrons que vous allez aimer l’aventure.{" "}
-            <span className="font-comfortaa font-bold">Innov</span> (notre
-            équipe) prépare les séances avec totale concentration, dans le but
-            de vous fournir du contenu riche et surtout simple à comprendre.
-      </blockquote>
       {/* Chapitre 3 */}
       <div className="mt-6">
         <h2 className="text-3xl font-medium">
@@ -148,8 +140,8 @@ const ContentSection = () => {
           </li>
         </ul>
       </div>
-      <blockquote className="border-l-8 border-l-primary p-6 mt-6 bg-gray-100 text-gray-700">
-        En participant vous aurez <span className="font-bold text-primary">accès à une vidéo chaque jour</span> pour rappeler les notions apprise pendant le live
+      <blockquote className="border-l-4 border-l-green-400 p-6 mt-6 bg-gray-100 text-xl text-gray-700">
+        En participant vous aurez <span className="font-bold">accès à une vidéo chaque jour</span> pour rappeler les notions apprise pendant le live
       </blockquote>
     </article>
   );

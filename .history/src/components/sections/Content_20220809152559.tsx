@@ -148,7 +148,7 @@ const ContentSection = () => {
           </li>
         </ul>
       </div>
-      <blockquote className="border-l-8 border-l-primary p-6 mt-6 bg-gray-100 text-gray-700">
+      <blockquote className="border-l-8 border-l-primary text-xl p-6 mt-6 bg-gray-100 text-gray-700">
         En participant vous aurez <span className="font-bold text-primary">accès à une vidéo chaque jour</span> pour rappeler les notions apprise pendant le live
       </blockquote>
     </article>

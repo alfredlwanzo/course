@@ -1,7 +1,6 @@
 import Footer from '@src/components/Footers/Footer'
 import ContentSection from '@src/components/sections/Content'
 import HomeSection from '@src/components/sections/Home'
-import PricingSection from '@src/components/sections/Pricing'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
@@ -28,7 +27,7 @@ const Home: NextPage = () => {
        </section>
        {/* Section pricing */}
        <section>
-        <PricingSection/>
+        
        </section>
       </main>
 
