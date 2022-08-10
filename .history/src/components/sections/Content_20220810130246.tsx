@@ -7,15 +7,14 @@ const ContentSection = () => {
     <article className="max-w-3xl mx-auto px-3 sm:px-6">
       <blockquote className="bg-gray-900 border-l-8 border-l-primary text-xl text-gray-200 p-4">
         <h6 className="text-primary text-3xl font-extrabold">Contenu de la formation</h6>
-        <p>Des projets de A à Z. Du frontend au backend en passant par la conception et l’usage des bonnes pratiques. (flutter, <span className="text-primary">nodejs</span>,  mongodb, <span className="text-primary">google cloud run</span>, docker, ...)</p>
-        <div className="mt-3">
+        Des projets de A à Z. Du frontend au backend en passant par la conception et l’usage des bonnes pratiques. (flutter, <span className="text-primary">nodejs</span>,  mongodb, <span className="text-primary">google cloud run</span>, docker, ...)
         <Image
         src="/assets/images/affiche3.jpg"
         alt=""
         width={1658}
         height={469}
-        className="rounded-xl"
-      /></div>
+        className=""
+      />
       </blockquote>
       {/* Chapter 1 */}
       <div className="mt-6">

@@ -14,7 +14,7 @@ const ContentSection = () => {
         alt=""
         width={1658}
         height={469}
-        className="rounded-xl"
+        className="rounded-md"
       /></div>
       </blockquote>
       {/* Chapter 1 */}

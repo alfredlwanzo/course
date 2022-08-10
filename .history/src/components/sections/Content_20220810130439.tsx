@@ -8,13 +8,13 @@ const ContentSection = () => {
       <blockquote className="bg-gray-900 border-l-8 border-l-primary text-xl text-gray-200 p-4">
         <h6 className="text-primary text-3xl font-extrabold">Contenu de la formation</h6>
         <p>Des projets de A à Z. Du frontend au backend en passant par la conception et l’usage des bonnes pratiques. (flutter, <span className="text-primary">nodejs</span>,  mongodb, <span className="text-primary">google cloud run</span>, docker, ...)</p>
-        <div className="mt-3">
+        <div>
         <Image
         src="/assets/images/affiche3.jpg"
         alt=""
         width={1658}
         height={469}
-        className="rounded-xl"
+        className="mt-3"
       /></div>
       </blockquote>
       {/* Chapter 1 */}
