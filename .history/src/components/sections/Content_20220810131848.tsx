@@ -173,10 +173,14 @@ const ContentSection = () => {
         pour rappeler les notions apprise pendant le live
       </blockquote>
       <blockquote className="bg-gray-900 border-l-8 border-l-primary text-xl text-gray-200 p-4">
-        <h6 className="text-primary text-3xl font-extrabold">Certification</h6>
+        <h6 className="text-primary text-3xl font-extrabold">
+          Contenu de la formation
+        </h6>
         <p>
-          Aura droit à une certification, toute personne ayant suivi la
-          formation à 100% et ayant obtenu 65% aux tests d&apos;évaluation.
+          Des projets de A à Z. Du frontend au backend en passant par la
+          conception et l’usage des bonnes pratiques. (flutter,{" "}
+          <span className="text-primary">nodejs</span>, mongodb,{" "}
+          <span className="text-primary">google cloud run</span>, docker, ...)
         </p>
         <div className="mt-3">
           <Image
