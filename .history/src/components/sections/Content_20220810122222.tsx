@@ -131,7 +131,7 @@ const ContentSection = () => {
           </li>
           <li className="text-xl ">
             <CheckIcon className="inline-block h-8 w-8 mr-3 text-green-400" />
-            Développement d’une application de crypto money avec Google Firebase
+            Développement d’une application de Twitter avec Google Firebase
           </li>
           <li className="text-xl ">
             <CheckIcon className="inline-block h-8 w-8 mr-3 text-green-400" />

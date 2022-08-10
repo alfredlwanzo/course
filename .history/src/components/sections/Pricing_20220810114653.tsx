@@ -9,7 +9,6 @@ const tiers = [
     features: [
       "2 heures de formation par jour",
       "1 heure d'assistance privée par jour",
-      "Pair programming",
       "Accès aux ressources (Texte, Image, Vidéo, Code source, ...)",
       "Accès au groupe d'accompagnement sur Télégram",
       "Certification à la fin de la formation",
@@ -23,7 +22,6 @@ const tiers = [
     features: [
       "2 heures de formation par jour",
       "1 heure d'assistance privée par jour",
-      "Pair programming",
       "Accès aux ressources (Texte, Image, Vidéo, Code source, ...)",
       "Accès au groupe d'accompagnement sur Télégram",
       "Certification à la fin de la formation",

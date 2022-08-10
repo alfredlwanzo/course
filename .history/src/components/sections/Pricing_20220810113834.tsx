@@ -8,11 +8,9 @@ const tiers = [
     description: "La formation se passe en ligne en live.  2 heures par jour",
     features: [
       "2 heures de formation par jour",
-      "1 heure d'assistance privée par jour",
-      "Pair programming",
-      "Accès aux ressources (Texte, Image, Vidéo, Code source, ...)",
-      "Accès au groupe d'accompagnement sur Télégram",
-      "Certification à la fin de la formation",
+      "1 heure d'assistance privée jour",
+      'Accompagnement dans groupe Télégramme',
+      'Certification après examen',
     ],
   },
   {
@@ -21,12 +19,8 @@ const tiers = [
     price: 100,
     description: 'Nous ne recevons que 5 personnes au sein de nos locaux à Butembo',
     features: [
-      "2 heures de formation par jour",
-      "1 heure d'assistance privée par jour",
-      "Pair programming",
-      "Accès aux ressources (Texte, Image, Vidéo, Code source, ...)",
-      "Accès au groupe d'accompagnement sur Télégram",
-      "Certification à la fin de la formation",
+      'Pariatur quod similique',
+      'Certification après examen',
     ],
   },
 ]

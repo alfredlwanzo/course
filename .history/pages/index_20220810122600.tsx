@@ -42,7 +42,7 @@ const Home: NextPage = () => {
         </section>
 
         {/* Section infomations */}
-        <section className="bg-primary py-7 md:py-10">
+        <section className="bg-primary py-5 md:py-10">
           <InformationSection />
         </section>
       </main>

@@ -37,12 +37,12 @@ const Home: NextPage = () => {
           <PricingSection />
         </section>
         {/* Section illustrations */}
-        <section className="bg-gray-900 py-5 md:py-20">
+        <section>
           <IllustrationsSection />
         </section>
 
         {/* Section infomations */}
-        <section className="bg-primary py-7 md:py-10">
+        <section className="bg-primary py-5 md:py-10">
           <InformationSection />
         </section>
       </main>

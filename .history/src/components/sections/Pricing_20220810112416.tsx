@@ -1,4 +1,3 @@
-import { CheckIcon } from "@heroicons/react/outline"
 
 const tiers = [
   {
@@ -7,12 +6,10 @@ const tiers = [
     price: 75,
     description: "La formation se passe en ligne en live.  2 heures par jour",
     features: [
-      "2 heures de formation par jour",
-      "1 heure d'assistance privée par jour",
-      "Pair programming",
-      "Accès aux ressources (Texte, Image, Vidéo, Code source, ...)",
-      "Accès au groupe d'accompagnement sur Télégram",
-      "Certification à la fin de la formation",
+      'Pariatur quod similique',
+      'Sapiente libero doloribus modi nostrum',
+      'Vel ipsa esse repudiandae excepturi',
+      'Itaque cupiditate adipisci quibusdam',
     ],
   },
   {
@@ -21,12 +18,10 @@ const tiers = [
     price: 100,
     description: 'Nous ne recevons que 5 personnes au sein de nos locaux à Butembo',
     features: [
-      "2 heures de formation par jour",
-      "1 heure d'assistance privée par jour",
-      "Pair programming",
-      "Accès aux ressources (Texte, Image, Vidéo, Code source, ...)",
-      "Accès au groupe d'accompagnement sur Télégram",
-      "Certification à la fin de la formation",
+      'Pariatur quod similique',
+      'Sapiente libero doloribus modi nostrum',
+      'Vel ipsa esse repudiandae excepturi',
+      'Itaque cupiditate adipisci quibusdam',
     ],
   },
 ]
@@ -69,16 +64,7 @@ export default function PricingSection() {
                     <p className="mt-5 text-xl text-gray-500">{tier.description}</p>
                   </div>
                   <div className="flex-1 flex flex-col justify-between px-6 pt-6 pb-8 bg-gray-50 space-y-6 sm:p-10 sm:pt-6">
-                  <ul role="list" className="space-y-4">
-                      {tier.features.map((feature) => (
-                        <li key={feature} className="flex items-start">
-                          <div className="flex-shrink-0">
-                            <CheckIcon className="h-6 w-6 text-green-500" aria-hidden="true" />
-                          </div>
-                          <p className="ml-3 text-base text-gray-700">{feature}</p>
-                        </li>
-                      ))}
-                    </ul>
+                  
                     <div className="rounded-full shadow">
                       <a
                         href={tier.href}
