@@ -6,7 +6,7 @@ const InformationSection = () => {
   return (
     <div className="max-w-4xl mx-auto px-3">
       <div className="border-l-8 border-l-gray-900 pl-4">
-    <p className="text-3xl font-extrabold text-gray-900 sm:text-4xl lg:text-5xl ">
+    <p className="text-3xl font-extrabold text-gray-900 sm:text-4xl lg:text-5xl md:text-center">
       Objectif (Investissez à vous)
     </p>
     <p className=" text-xl text-gray-900 max-w-4xl mx-auto mt-3 md:mt-5">
